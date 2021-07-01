@@ -49,6 +49,7 @@ class MockConsumer implements Runnable {
     	    
     	    while (!Thread.currentThread().isInterrupted()) {}
     	    
+    	    
     	    channel.abort();
     	    connection.abort();
     	 
